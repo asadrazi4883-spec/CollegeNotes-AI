@@ -86,6 +86,18 @@ Both models run locally through Ollama.
 - Add a simple user interface.
 - Improve answer relevance and response quality.
 
+## Project Screenshots
+
+### 1. Question Embedding and Cosine Similarity
+
+![Project Screenshot 1](screenshots/project%20screenshot%201.jpg)
+
+### 2. Retrieved Passages and Generated Answer
+
+![Project Screenshot 2](screenshots/project%20screenshot%202.jpg)
+
+
+
 ## Author
 
 Asad Razi
