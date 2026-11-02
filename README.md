@@ -1,8 +1,11 @@
 # CollegeNotes-AI — Local RAG Study Assistant
 
 CollegeNotes-AI is a Python-based study assistant that helps students find answers from their PDF study notes using Retrieval-Augmented Generation (RAG).
-
 The application retrieves relevant information from PDF documents using semantic similarity and generates answers using a locally running AI model.
+
+## Project Objective
+
+To help students retrieve relevant information from PDF study notes and generate simple answers using locally running AI models.
 
 ## Features
 
@@ -65,8 +68,15 @@ https://ollama.com/
 ollama pull embeddinggemma
 ollama pull gemma3:1b
 ```
+### 5. Add PDF Study Material
 
-### 5. Run the application
+Place your PDF file in the project folder and name it:
+
+`Machine_learning.pdf`
+
+The sample PDF used during development is included in this repository. You can replace it with your own PDF, keeping the same filename.
+
+### 6. Run the application
 
 ```bash
 python main.py
@@ -107,7 +117,7 @@ What is K-Means Clustering?
 The application retrieved the following relevant information:
 
 - **Chunk 17 — Similarity: 0.6280:** K-Means Clustering explanation and algorithm steps.
-- **Chunk 1 — Similarity: 0.5073:** Introduction to Machine Learning.
+- **Chunk 1 — Similarity: 0.5073:** Introduction heading (additional retrieved context).
 - **Chunk 16 — Similarity: 0.5037:** Unsupervised Learning and Clustering.
 
 **Generated Answer:**
@@ -128,6 +138,8 @@ The application successfully retrieved the relevant K-Means Clustering passage a
 
 ## Author
 
-Asad Razi
+**Asad Razi**
 
-GitHub: https://github.com/asadrazi4883-spec
+GitHub: [asadrazi4883-spec](https://github.com/asadrazi4883-spec)
+
+Project Repository: [CollegeNotes-AI](https://github.com/asadrazi4883-spec/CollegeNotes-AI)
