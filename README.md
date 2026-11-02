@@ -96,7 +96,35 @@ Both models run locally through Ollama.
 
 ![Project Screenshot 2](screenshots/project%20screenshot%202.jpg)
 
+## Example Execution – K-Means Clustering
 
+**Sample Question:**
+
+What is K-Means Clustering?
+
+**Retrieved Passages:**
+
+The application retrieved the following relevant information:
+
+- **Chunk 17 — Similarity: 0.6280:** K-Means Clustering explanation and algorithm steps.
+- **Chunk 1 — Similarity: 0.5073:** Introduction to Machine Learning.
+- **Chunk 16 — Similarity: 0.5037:** Unsupervised Learning and Clustering.
+
+**Generated Answer:**
+
+K-Means clustering is a technique used to group unlabelled data into k distinct clusters based on feature similarities. It starts by randomly selecting k center points and then assigns each data point to the closest center. The process continues until the centroids stabilize.
+
+In short, it is a method for organizing data into groups where similar data points are grouped together.
+
+**Retrieval Result:**
+
+- Total document chunks: 23
+- Embedding dimensions: 768
+- Retrieved passages: 3
+- Similarity threshold: 0.45
+- Answer generation model: Gemma 3:1b
+
+The application successfully retrieved the relevant K-Means Clustering passage and generated an answer using the retrieved context.
 
 ## Author
 
